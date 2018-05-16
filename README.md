@@ -23,10 +23,8 @@ Samples Twilio Notify programs to create components and send notifications.
 
 ## Environment Variable Setup
 
-Here is the steps to set up the program environment variables.
-
-Replace the your_account_* with your account values.
-Replace the your_phone_number with your mobile phone number.
+In the following, replace the your_account_* with your account values.
+And replace the your_phone_number with your mobile phone number.
 Then run from command line:
 
     ACCOUNT_SID=your_account_SID
