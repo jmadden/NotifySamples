@@ -4,22 +4,23 @@ Samples Twilio Notify programs to create components and send notifications.
 
 ## Program Files
 
-    echoVars.js       - Echo the environment variables to ensure they are set.
-    echoVars.py
+    echoVars.py       - Echo the environment variables to ensure they are set.
 
-    listServices.js
     listServices.py
 
-    listBindings.js
+    createBindings.py - Binding maintenance programs
     listBindings.py
-
-    deleteBindings.js
     deleteBindings.py
 
     sendToOne.py      - Send a notification to a single SMS phone number
 
-    sendToList.js     - Send notifications to a list of SMS phone number
-    sendToList.py
+    sendToList.py     - Send notifications to a list of SMS phone number
+
+    echoVars.js       - Node.js samples
+    listServices.js
+    listBindings.js
+    deleteBindings.js
+    sendToList.js
 
 ## Environment Variable Setup
 
