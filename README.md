@@ -2,7 +2,7 @@
 
 Samples Twilio Notify programs to create components and send notifications. 
 
-## Files
+## Program Files
 
     echoVars.js       - Echo the environment variables to ensure they are set.
     echoVars.py
@@ -63,6 +63,6 @@ To confirm the variable set to work in the programs, run the echoVars.py program
     + phoneNumber2 = your_test_phone_number_2
     + phoneNumber3 = your_test_phone_number_3
 
-+++ Exit.
+    +++ Exit.
 
 Cheers...
