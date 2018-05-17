@@ -1,4 +1,4 @@
-print "+++ List Bindings."
+print "+++ List Bindings (SID, tag, identity, type, address:phone number)."
 import os
 from twilio.rest import Client
 from datetime import date

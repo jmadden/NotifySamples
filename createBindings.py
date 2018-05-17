@@ -41,7 +41,7 @@ binding = client.notify.services(notifyServiceSid).bindings \
             )
 print "+ Created: " + binding.identity
 
-print "+++ List Bindings."
+print "+++ List Bindings (SID, tag, identity, type, address:phone number)."
 bindings = client.notify.services(notifyServiceSid).bindings \
     .list(start_date=date(2015, 8, 25))
 for binding in bindings:
