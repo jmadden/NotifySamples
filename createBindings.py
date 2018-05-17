@@ -1,4 +1,4 @@
-print "+++ List Bindings."
+print "+++ Create Bindings."
 import os
 from twilio.rest import Client
 from datetime import date
@@ -21,7 +21,7 @@ binding = client.notify.services(notifyServiceSid).bindings \
                 binding_type="sms",
                 address=phoneNumber1
             )
-print "+ Added: " + binding.identity
+print "+ Created: " + binding.identity
 
 binding = client.notify.services(notifyServiceSid).bindings \
             .create(
@@ -30,7 +30,7 @@ binding = client.notify.services(notifyServiceSid).bindings \
                 binding_type="sms",
                 address=phoneNumber2
             )
-print "+ Added: " + binding.identity
+print "+ Created: " + binding.identity
 
 binding = client.notify.services(notifyServiceSid).bindings \
             .create(
@@ -39,7 +39,7 @@ binding = client.notify.services(notifyServiceSid).bindings \
                 binding_type="sms",
                 address=phoneNumber3
             )
-print "+ Added: " + binding.identity
+print "+ Created: " + binding.identity
 
 print "+++ List Bindings."
 bindings = client.notify.services(notifyServiceSid).bindings \
