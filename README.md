@@ -4,23 +4,21 @@ Samples Twilio Notify programs to create components and send notifications.
 
 ## Program Files
 
-    echoVars.py       - Echo the environment variables to ensure they are set.
-
-    listServices.py
-
-    createBindings.py - Binding maintenance programs
-    listBindings.py
-    deleteBindings.py
-
-    sendToOne.py      - Send a notification to a single SMS phone number
-
-    sendToList.py     - Send notifications to a list of SMS phone number
-
-    echoVars.js       - Node.js samples
-    listServices.js
-    listBindings.js
-    deleteBindings.js
-    sendToList.js
+|Program    | Description                                          |
+|-----------|------------------------------------------------------|
+|echoVars.py|Echo the environment variables to ensure they are set.|
+|listServices.py|List Notify services |
+|createBindings.py|Binding maintenance programs|
+|listBindings.py| |
+|deleteBindings.py| |
+|sendToOne.py|Send a notification to a single SMS phone number |
+|sendToList.py|Send notifications to a list of SMS phone number |
+| | |
+|echoVars.js|Node.js samples
+|listServices.js
+|listBindings.js
+|deleteBindings.js
+|sendToList.js
 
 ## Environment Variable Setup
 
@@ -50,7 +48,7 @@ After creating your Notify service, add an environment variable for it.
     NOTIFY_SERVICE_SID=your_notify_service_SID
     export NOTIFY_SERVICE_SID
 
-To confirm the variable set to work in the programs, run the echoVars.py program.
+To confirm that the variables are set properly, run the *echoVars.py* program.
 
     $ python echoVars.py
     +++ Start echo variables.
