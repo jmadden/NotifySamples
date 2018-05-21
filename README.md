@@ -6,7 +6,7 @@ Samples Twilio Notify programs to create components and send notifications.
 
 |Program    | Description                                          |
 |-----------|------------------------------------------------------|
-|setvars.sh |Shell script to environment variables.                |
+|setvars.sh |Shell script set up environment variables.            |
 |echoVars.py|Echo the environment variables to ensure they are set.|
 | | |
 |listServices.py|List Notify services |
