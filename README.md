@@ -13,8 +13,12 @@ Samples Twilio Notify programs to create components and send notifications.
 |[createBindings.py](https://github.com/tigerfarm/NotifySamples/blob/master/createBindings.py)|Binding maintenance programs|
 |[listBindings.py](https://github.com/tigerfarm/NotifySamples/blob/master/listBindings.py)| |
 |[deleteBindings.py](https://github.com/tigerfarm/NotifySamples/blob/master/deleteBindings.py)| |
-|[sendToOne.py](https://github.com/tigerfarm/NotifySamples/blob/master/sendToOne.py)|Send a notification to a single SMS phone number |
-|[sendToList.py](https://github.com/tigerfarm/NotifySamples/blob/master/sendToList.py)|Send notifications to a list of SMS phone number |
+| | |
+|[sendToList1.py](https://github.com/tigerfarm/NotifySamples/blob/master/sendToList1.py)|Send notifications to one SMS phone number |
+|[sendToList2.py](https://github.com/tigerfarm/NotifySamples/blob/master/sendToList2.py)|Send notifications to a list of 2 SMS phone number |
+|[sendToPaul.py](https://github.com/tigerfarm/NotifySamples/blob/master/sendToPaul.py)|Send a notification to an identity SMS phone number |
+|[sendToOne.py](https://github.com/tigerfarm/NotifySamples/blob/master/sendToOne.py)|Send a notification to the tag "one" |
+|[sendToOther.py](https://github.com/tigerfarm/NotifySamples/blob/master/sendToOther.py)|Send a notification to the tag "other" |
 | | |
 |[echoVars.js](https://github.com/tigerfarm/NotifySamples/blob/master/echoVars.js)|Node.js samples
 |[listServices.js](https://github.com/tigerfarm/NotifySamples/blob/master/listServices.js)
