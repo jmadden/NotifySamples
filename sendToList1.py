@@ -16,10 +16,8 @@ yourPhoneNumber = os.environ.get("YOUR_PHONE_NUMBER")
 print("+ Send notifications to: " + yourPhoneNumber )
 notify_service_sid = os.environ.get("NOTIFY_SERVICE_SID")
 notification = client.notify.services(notify_service_sid).notifications.create(
-    body='Hello to the list of 1.',
-    to_binding=[
-      json.dumps({"binding_type":"sms", "address": yourPhoneNumber})
-    ]
+    body='Hello to one phone number.',
+    to_binding=json.dumps({"binding_type":"sms", "address": yourPhoneNumber})
   )
 
 print(notification)
