@@ -6,21 +6,21 @@ Samples Twilio Notify programs to create components and send notifications.
 
 |Program    | Description                                          |
 |-----------|------------------------------------------------------|
-|setvars.sh |Shell script set up environment variables.            |
-|echoVars.py|Echo the environment variables to ensure they are set.|
+|[setvars.sh](https://github.com/tigerfarm/NotifySamples/blob/master/setvars.sh) |Shell script set up environment variables.            |
+|[echoVars.py](https://github.com/tigerfarm/NotifySamples/blob/master/echoVars.py)|Echo the environment variables to ensure they are set.|
 | | |
-|listServices.py|List Notify services |
-|createBindings.py|Binding maintenance programs|
-|listBindings.py| |
-|deleteBindings.py| |
-|sendToOne.py|Send a notification to a single SMS phone number |
-|sendToList.py|Send notifications to a list of SMS phone number |
+|[listServices.py](https://github.com/tigerfarm/NotifySamples/blob/master/listServices.py)|List Notify services |
+|[createBindings.py](https://github.com/tigerfarm/NotifySamples/blob/master/createBindings.py)|Binding maintenance programs|
+|[listBindings.py](https://github.com/tigerfarm/NotifySamples/blob/master/listBindings.py)| |
+|[deleteBindings.py](https://github.com/tigerfarm/NotifySamples/blob/master/deleteBindings.py)| |
+|[sendToOne.py](https://github.com/tigerfarm/NotifySamples/blob/master/sendToOne.py)|Send a notification to a single SMS phone number |
+|[sendToList.py](https://github.com/tigerfarm/NotifySamples/blob/master/sendToList.py)|Send notifications to a list of SMS phone number |
 | | |
-|echoVars.js|Node.js samples
-|listServices.js
-|listBindings.js
-|deleteBindings.js
-|sendToList.js
+|[echoVars.js](https://github.com/tigerfarm/NotifySamples/blob/master/echoVars.js)|Node.js samples
+|[listServices.js](https://github.com/tigerfarm/NotifySamples/blob/master/listServices.js)
+|[listBindings.js](https://github.com/tigerfarm/NotifySamples/blob/master/listBindings.js)
+|[deleteBindings.js](https://github.com/tigerfarm/NotifySamples/blob/master/deleteBindings.js)
+|[sendToList.js](https://github.com/tigerfarm/NotifySamples/blob/master/listServices.js)
 
 ## Environment Variable Setup
 
