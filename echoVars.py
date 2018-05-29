@@ -1,4 +1,4 @@
-print "+++ Start echo variables."
+print "+++ Echo environment variables."
 import os
 
 # ------------------------------------------------------------------------------
