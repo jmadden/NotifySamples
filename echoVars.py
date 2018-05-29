@@ -13,7 +13,7 @@ yourPhoneNumber = os.environ.get("YOUR_PHONE_NUMBER")
 print "+ YOUR_PHONE_NUMBER =", yourPhoneNumber
 
 print ""
-print "+ The following are required when creating bindings and sending to a list:"
+print "+ The following are required when creating bindings:"
 phoneNumber1 = os.environ.get("PHONE_NUMBER_1")
 phoneNumber2 = os.environ.get("PHONE_NUMBER_2")
 phoneNumber3 = os.environ.get("PHONE_NUMBER_3")
