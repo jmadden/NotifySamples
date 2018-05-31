@@ -25,6 +25,8 @@ Samples Twilio Notify programs to create components and send notifications.
 |[listBindings.js](https://github.com/tigerfarm/NotifySamples/blob/master/listBindings.js)
 |[deleteBindings.js](https://github.com/tigerfarm/NotifySamples/blob/master/deleteBindings.js)
 |[sendToList.js](https://github.com/tigerfarm/NotifySamples/blob/master/listServices.js)
+| | |
+|[sendSmsMsg.js](https://github.com/tigerfarm/NotifySamples/blob/master/sendSmsMsg.py)|Send an SMS message without using Notify
 
 ## Environment Variable Setup
 
