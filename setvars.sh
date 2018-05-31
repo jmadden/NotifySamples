@@ -3,9 +3,11 @@ echo "+++ Set variables."
 # ------------------------------------------------------------------------------
 ACCOUNT_SID=your_account_SID
 AUTH_TOKEN=your_account_auth_token
+ACCOUNT_PHONE_NUMBER=your_account_phone_number
 YOUR_PHONE_NUMBER=your_phone_number
 export ACCOUNT_SID
 export AUTH_TOKEN
+export ACCOUNT_PHONE_NUMBER
 export YOUR_PHONE_NUMBER
 
 NOTIFY_SERVICE_SID=your_notify_service_sid
