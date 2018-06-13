@@ -18,4 +18,4 @@ for binding in bindings:
     print("+ " + binding.sid + " " + binding.tags[0] + " " + binding.identity + " " + binding.binding_type + " " + binding.address)
 
 # ------------------------------------------------------------------------------
-print "+++ Exit."
+print("+ End of list.")

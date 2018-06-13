@@ -14,5 +14,4 @@ for service in services:
     print("+ " + service.sid + " " + service.friendly_name)
 
 # ------------------------------------------------------------------------------
-print ""
-print "+++ Exit."
+print("+ End of list.")

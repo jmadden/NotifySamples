@@ -21,7 +21,7 @@ binding = client.notify.services(notifyServiceSid).bindings \
                 binding_type="sms",
                 address=phoneNumber1
             )
-print "+ Created: " + binding.identity
+print("+ Created: " + binding.identity)
 
 binding = client.notify.services(notifyServiceSid).bindings \
             .create(
@@ -30,7 +30,7 @@ binding = client.notify.services(notifyServiceSid).bindings \
                 binding_type="sms",
                 address=phoneNumber2
             )
-print "+ Created: " + binding.identity
+print("+ Created: " + binding.identity)
 
 binding = client.notify.services(notifyServiceSid).bindings \
             .create(
@@ -39,13 +39,13 @@ binding = client.notify.services(notifyServiceSid).bindings \
                 binding_type="sms",
                 address=phoneNumber3
             )
-print "+ Created: " + binding.identity
+print("+ Created: " + binding.identity)
 
-print "+++ List Bindings (SID, tag, identity, type, address:phone number)."
+print("+++ List Bindings (SID, tag, identity, type, address:phone number).")
 bindings = client.notify.services(notifyServiceSid).bindings \
     .list(start_date=date(2015, 8, 25))
 for binding in bindings:
     print("+ " + binding.sid + " " + binding.tags[0] + " " + binding.identity + " " + binding.binding_type + " " + binding.address)
 
 # ------------------------------------------------------------------------------
-print "+++ Exit."
+print("+ End of list.")

@@ -1,4 +1,4 @@
-print "+++ Send to a tag list."
+print("+++ Send to a tag list.")
 import os
 from twilio.rest import Client
 
@@ -17,9 +17,7 @@ notification = client.notify.services(notify_service_sid).notifications.create(
     body='Hello the one',
     tag=theTag
   )
-
-print(notification)
+print("+ Notification SID: " + notification.sid)
 
 # ------------------------------------------------------------------------------
-print ""
-print "+++ Exit."
+print("+++ Exit.")

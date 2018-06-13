@@ -28,18 +28,38 @@ Samples Twilio Notify programs to create components and send notifications.
 | | |
 |[sendSmsMsg.py](https://github.com/tigerfarm/NotifySamples/blob/master/sendSmsMsg.py)|Send an SMS message without using Notify
 
-## Environment Variable Setup
+## Set Up Environment Variables
 
-In the shell script, setvars.sh, replace the your_account_* with your account values.
-And replace the your_phone_number with your mobile phone number.
-After creating your Notify service, add an environment variable for it.
+In a working directory, download and unzip the Notify lab files: NotifySamples-master.zip.
 
-When using the sendToList.py program, you also require the following variables.
-In setvars.sh, replace the your_test_phone_number_* with your test phone numbers. I use Twilio phone number for testing.
+Edit setvars.sh.
 
-Then run setvars.sh from command line:
+    Replace your_account_SID and your_account_auth_token with your account values.
+    Replace your_phone_number with your mobile phone number.
+    Replace your_notify_service_sid with your Notify Service SID.
+    Replace your_test_phone_number_* with your phone numbers available for testing.
 
-    $ source setvars.sh
-    ...
+Requirements, phone numbers must be in E.164 format, including the leading plus sign (“+”). Example: +12223331234.
+
+Save edits.
+
+Set the shell script to be executable and run the script to enable the environment variables.
+````
+$ chmod u+x setvars.sh
+$ source setvars.sh
++++ Set variables.
++++ Start echo variables.
++ ACCOUNT_SID = your_account_SID
++ AUTH_TOKEN = your_account_auth_token
++ ACCOUNT_PHONE_NUMBER = your_account_phone_number
++ NOTIFY_SERVICE_SID = your_notify_service_sid
+
++ The following are required when creating bindings:
++ PHONE_NUMBER_1 = your_test_phone_number_1
++ PHONE_NUMBER_2 = your_test_phone_number_2
++ PHONE_NUMBER_3 = your_test_phone_number_3
+
++++ Exit.
+````
 
 Cheers...

@@ -2,6 +2,7 @@ print "+++ Echo environment variables."
 import os
 
 # ------------------------------------------------------------------------------
+# Get your account SID and auth token from https://twilio.com/console.
 account_sid = os.environ.get("ACCOUNT_SID")
 auth_token = os.environ.get("AUTH_TOKEN")
 print "+ ACCOUNT_SID =", account_sid

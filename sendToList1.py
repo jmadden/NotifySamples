@@ -1,4 +1,4 @@
-print "+++ Send notifications."
+print("+++ Send notifications.")
 import os
 import json
 from twilio.rest import Client
@@ -20,8 +20,7 @@ notification = client.notify.services(notify_service_sid).notifications.create(
     to_binding=json.dumps({"binding_type":"sms", "address": yourPhoneNumber})
   )
 
-print(notification)
+print("+ Notification SID: " + notification.sid)
 
 # ------------------------------------------------------------------------------
-print ""
-print "+++ Exit."
+print("+++ Exit.")

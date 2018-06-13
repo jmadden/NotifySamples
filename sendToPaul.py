@@ -1,4 +1,4 @@
-print "+++ Send to an identity."
+print("+++ Send to an identity.")
 import os
 from twilio.rest import Client
 
@@ -17,9 +17,7 @@ notification = client.notify.services(notify_service_sid).notifications.create(
     body='Hello Paul',
     identity=theIdentity
   )
-
-print(notification)
+print("+ Notification SID: " + notification.sid)
 
 # ------------------------------------------------------------------------------
-print ""
-print "+++ Exit."
+print("+++ Exit.")
