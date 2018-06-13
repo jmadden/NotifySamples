@@ -1,4 +1,4 @@
-print "+++ Create Bindings."
+print("+++ Create Bindings.")
 import os
 from twilio.rest import Client
 from datetime import date

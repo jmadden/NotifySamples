@@ -1,4 +1,4 @@
-print "+++ Delete list of Bindings."
+print("+++ Delete list of Bindings.")
 import os
 from twilio.rest import Client
 from datetime import date

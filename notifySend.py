@@ -13,7 +13,7 @@ phoneNumber1 = os.environ.get("PHONE_NUMBER_1")
 
 client = Client(account_sid, auth_token)
 notification = client.notify.services(notify_service_sid).notifications.create(
-    body='Hello to one SMS user.',
+    body="Hello to one SMS user.",
     to_binding=json.dumps( {"binding_type":"sms", "address": phoneNumber1} )
 )
 print("+ Notification SID: " + notification.sid)
