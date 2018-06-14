@@ -15,8 +15,8 @@ phoneNumber3 = os.environ.get("PHONE_NUMBER_3")
 
 client = Client(account_sid, auth_token)
 notification = client.notify.services(notify_service_sid).notifications.create(
-    body='Hello Paul',
-    identity="paul"
+    body='Hello one tag.',
+    tag="one"
 )
 print("+ Notification SID: " + notification.sid)
 
