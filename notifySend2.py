@@ -11,12 +11,14 @@ notify_service_sid = os.environ.get("NOTIFY_SERVICE_SID")
 # A phone number to send to.
 phoneNumber1 = os.environ.get("PHONE_NUMBER_1")
 phoneNumber2 = os.environ.get("PHONE_NUMBER_2")
+phoneNumber3 = os.environ.get("PHONE_NUMBER_3")
 client = Client(account_sid, auth_token)
 notification = client.notify.services(notify_service_sid).notifications.create(
-    body="Hello to two SMS user.",
+    body="Hello to three SMS user.",
     to_binding=[
     json.dumps( {"binding_type":"sms", "address": phoneNumber1} ),
-    json.dumps( {"binding_type":"sms", "address": phoneNumber2} )
+    json.dumps( {"binding_type":"sms", "address": phoneNumber2} ),
+    json.dumps( {"binding_type":"sms", "address": phoneNumber3} )
     ]
 )
 print("+ Notification SID: " + notification.sid)
