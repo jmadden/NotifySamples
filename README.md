@@ -9,6 +9,9 @@ Samples Twilio Notify programs to create components and send notifications.
 |[setvars.sh](https://github.com/tigerfarm/NotifySamples/blob/master/setvars.sh) |Shell script set up environment variables.            |
 |[echoVars.py](https://github.com/tigerfarm/NotifySamples/blob/master/echoVars.py)|Echo the environment variables to ensure they are set.|
 | | |
+|[notifySend.py](https://github.com/tigerfarm/NotifySamples/blob/master/notifySend.py)|Send a notification |
+|[notifyBinding.py](https://github.com/tigerfarm/NotifySamples/blob/master/notifyBinding.py)|Create a Notify Binding |
+| | |
 |[listServices.py](https://github.com/tigerfarm/NotifySamples/blob/master/listServices.py)|List Notify services |
 |[createBindings.py](https://github.com/tigerfarm/NotifySamples/blob/master/createBindings.py)|Binding maintenance programs|
 |[listBindings.py](https://github.com/tigerfarm/NotifySamples/blob/master/listBindings.py)| |
