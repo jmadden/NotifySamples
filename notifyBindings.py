@@ -7,12 +7,12 @@ from datetime import date
 
 account_sid = os.environ.get("ACCOUNT_SID")
 auth_token = os.environ.get("AUTH_TOKEN")
-client = Client(account_sid, auth_token)
 notifyServiceSid = os.environ.get("NOTIFY_SERVICE_SID")
 phoneNumber1 = os.environ.get("PHONE_NUMBER_1")
 phoneNumber2 = os.environ.get("PHONE_NUMBER_2")
 phoneNumber3 = os.environ.get("PHONE_NUMBER_3")
 
+client = Client(account_sid, auth_token)
 binding = client.notify.services(notifyServiceSid).bindings \
             .create(
                 identity="peter",
@@ -26,7 +26,8 @@ print("+++ List Bindings (SID, tag, identity, type, address:phone number).")
 bindings = client.notify.services(notifyServiceSid).bindings \
     .list(start_date=date(2015, 8, 25))
 for binding in bindings:
-    print("+ " + binding.sid + " " + binding.tags[0] + " " + binding.identity + " " + binding.binding_type + " " + binding.address)
+    print("+ " + binding.sid + " " + binding.tags[0] + " " + binding.identity
+         + " " + binding.binding_type + " " + binding.address)
 
 # ------------------------------------------------------------------------------
 print("+ End of list.")
