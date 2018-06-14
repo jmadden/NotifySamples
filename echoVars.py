@@ -22,7 +22,9 @@ print ""
 print "++ Test Twilio helper library."
 from twilio.rest import Client
 client = Client(account_sid, auth_token)
-print "++ Twilio helper library works."
+from datetime import date
+bindings = client.notify.services(notifyServiceSid).bindings.list(start_date=date(2015, 8, 25))
+print "+ Helper library works."
 # ------------------------------------------------------------------------------
 print ""
 print "+++ Exit."
